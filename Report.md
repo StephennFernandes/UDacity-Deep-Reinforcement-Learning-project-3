@@ -30,3 +30,11 @@ The network consists of 3 fully connected layers with batch normalization applie
     EPSILON = 1.0 # for epsilon in the noise process (act step)
     EPSILON_DECAY = 1e-6 # epsilon decay rate
 
+# Future ideas to Improve the agents performance 
+
+DDPG can be further improved by using prioritized experienced replay
+
+Hyperparameters can be fine tuned to get even better results and faster training
+
+Apply Multi-agent actor critic method for mixed coperative and competitive environments could also produce better results and improve the models performance better
+
